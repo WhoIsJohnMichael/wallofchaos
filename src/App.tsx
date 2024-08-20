@@ -4,7 +4,13 @@ function App() {
 
   return (
     <>
-      
+      <div className="h-dvh">
+        <div className="flex justify-center items-center h-full">
+          <h1 className="text-3xl">
+            Walang yagballs si <a className="underline font-bold text-blue-700" href="https://web.facebook.com/cm.obession10">Mitsuo!</a>
+          </h1>
+        </div>
+      </div>
     </>
   )
 }
