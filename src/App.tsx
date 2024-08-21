@@ -1,5 +1,4 @@
 import "./app.css";
-import {WrenchScrewdriverIcon } from "@heroicons/react/20/solid";
 
 function App() {
 
