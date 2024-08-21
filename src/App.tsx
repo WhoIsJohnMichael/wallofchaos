@@ -1,14 +1,15 @@
 import "./app.css";
+import {WrenchScrewdriverIcon } from "@heroicons/react/20/solid";
 
 function App() {
 
   return (
     <>
-      <div className="h-dvh">
-        <div className="flex justify-center items-center h-full">
-          <h1 className="text-3xl">
-            Walang yagballs si <a className="underline font-bold text-blue-700" href="https://web.facebook.com/cm.obession10">Mitsuo!</a>
-          </h1>
+      <div className="h-dvh bg-[#292929]">
+        <div className="flex h-full justify-center items-center flex-col gap-4">
+          {/* <WrenchScrewdriverIcon className="size-44 text-white"/> */}
+          <img src="woc-dark.png" alt="logo"/>
+          <h1 className="text-2xl font-display text-slate-50 font-bold">Site Under Construction...</h1>
         </div>
       </div>
     </>
