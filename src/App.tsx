@@ -1,16 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Construction } from "./pages/construction";
+import { NotFound } from "./pages/errors";
 import "./app.css";
 
 function App() {
 
   return (
     <>
-      <div className="h-dvh bg-[#292929]">
-        <div className="flex h-full justify-center items-center flex-col gap-4">
-          {/* <WrenchScrewdriverIcon className="size-44 text-white"/> */}
-          <img src="woc-dark.png" alt="logo"/>
-          <h1 className="text-2xl font-display text-slate-50 font-bold">Site Under Construction...</h1>
+      <Router>
+        <div className="h-dvh bg-[#292929]">
+          <Routes>
+            <Route path="/" element={<Construction />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </div>
-      </div>
+      </Router>
     </>
   )
 }
