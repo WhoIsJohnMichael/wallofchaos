@@ -33,11 +33,11 @@ export const Home = () => {
             <Bars3Icon className="w-6 h-6 lg:hidden" />
           </button>
           <ul className="hidden lg:flex lg:justify-end gap-4 p-2 items-center">
-            <Link className="hover:font-semibold transition-all duration-100 ease-in-out" to={"/beta"}>Home</Link>
-            <Link className="hover:font-semibold transition-all duration-100 ease-in-out" to={"/about"}>About</Link>
-            <Link className="hover:font-semibold transition-all duration-100 ease-in-out" to={"/contacts"}>Contact</Link>
-            <Link className="hover:font-semibold transition-all duration-100 ease-in-out" to={"/login"}>
-              <div className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-xl">Login</div>
+            <Link className="hover:font-semibold transition-all duration-100 ease-in-out text-center px-4 w-24" to={"/beta"}>Home</Link>
+            <Link className="hover:font-semibold transition-all duration-100 ease-in-out text-center px-4 w-24" to={"/about"}>About</Link>
+            <Link className="hover:font-semibold transition-all duration-100 ease-in-out text-center px-4 w-24" to={"/contacts"}>Contact</Link>
+            <Link className="hover:font-semibold transition-all duration-100 ease-in-out text-center px-4" to={"/login"}>
+              <div className="bg-slate-600 hover:bg-slate-700 px-4 py-2 rounded-full">Login</div>
             </Link>
           </ul>
         </nav>
